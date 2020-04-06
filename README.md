@@ -7,7 +7,8 @@ It synchronizes your music libruary with the libruary of your friend.
 Just put your mp3 files in the music folder, connect to your friend or let your friend connect to you 
 and enjoy listening to music together.
 This is an Open source project and it will evolve over time. 
-If you want to add or fix something don't mind to create a pull request.
+If you want to add or fix something don't mind to create a pull request. 
+Also if you encounter any issues feel free to submit them on the Issues tab.
 
 ### Features
 
