@@ -14,7 +14,8 @@ Also if you encounter any issues feel free to submit them on the Issues tab.
 ### Features
 
 + syncs your music libruary with the music libruary of your friend  
-+ remembers music libruary from users (so it doesn't send the same mp3 files multiple times)
++ remembers music libruary from users (so it doesn't send the same mp3 files multiple times) 
++ plays music synced
 
 ### Planed Features
 
@@ -35,3 +36,5 @@ Also if you encounter any issues feel free to submit them on the Issues tab.
 This is written and tested in Python 3.8 64bit it should work with all python 3.x versions tho. 
 
 OpenMCS per default uses the port 5050.
+The Programm structure should look like something like this:
+<img src="https://github.com/Finn1510/OpenMCS/raw/master/archetecture.png" width="100%">
