@@ -15,7 +15,7 @@ Also if you encounter any issues feel free to submit them on the Issues tab.
 
 + syncs your music libruary with the music libruary of your friend  
 + remembers music libruary from users (so it doesn't send the same mp3 files multiple times) 
-+ plays music synced
++ plays music synced between server and client
 
 ### Planed Features
 
