@@ -10,6 +10,9 @@ def connect(host, port):
     fileBRAIN = []
     musicPath = './music'
 
+    #create music folder if non existent
+    if os.path.exists(musicPath) == False :
+        os.makedirs(musicPath)
     
     s = socket.socket()
     s.connect((host,port))
