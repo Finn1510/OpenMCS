@@ -19,6 +19,7 @@ If you want to add or fix something don't mind to create a pull request.
 + proper GUI 
 + support for more than 2 users 
 + automatic port forward solution 
++ friend system so you dont have to type in the IP every time
 
 ### Dependencies 
 
