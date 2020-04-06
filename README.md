@@ -11,6 +11,8 @@ If you want to add or fix something don't mind to create a pull request.
 
 Also if you encounter any issues feel free to submit them on the Issues tab.
 
+<h2 align="center"><a href="https://github.com/Finn1510/OpenMCS/releases" target="_blank"><b>Download latest Version</b></a></h2>
+
 ### Features
 
 + syncs your music libruary with the music libruary of your friend  
