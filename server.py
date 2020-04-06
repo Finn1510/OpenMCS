@@ -13,6 +13,10 @@ def init(port):
         files = []
         musicPath = './music'
         
+        #create music folder if non existent
+        if os.path.exists(musicPath) == False :
+                os.makedirs(musicPath)
+
         for entry in os.listdir(musicPath):
                 if os.path.isfile(os.path.join(musicPath, entry)):
                         files.append(entry)
