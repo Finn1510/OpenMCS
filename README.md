@@ -30,11 +30,12 @@ Also if you encounter any issues feel free to submit them on the Issues tab.
 + socket
 + struct      
 + pickle   
-+ os         
++ os 
++ miniupnpc   
 + pygame      (for audio playback)
 
 ### for Developers 
-This is written and tested in Python 3.8 64bit it should work with all python 3.x versions tho. 
+This is written and tested in Python 3.7 32bit it should work with all python 3.x versions tho. 
 
 OpenMCS per default uses the port 5050.
 The Programm structure should look like something like this:
