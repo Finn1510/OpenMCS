@@ -15,6 +15,7 @@ def connect(host, port):
         os.makedirs(musicPath)
     
     s = socket.socket()
+    print('created socket')
     s.connect((host,port))
     print('conected to ',host)
 
