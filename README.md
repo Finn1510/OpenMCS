@@ -21,7 +21,6 @@ Also if you encounter any issues feel free to submit them on the Issues tab.
 
 ### Planed Features
 
-+ proper GUI 
 + support for more than 2 users 
 + automatic port forward solution 
 + friend system so you dont have to type in the IP every time
