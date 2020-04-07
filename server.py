@@ -2,6 +2,7 @@ import socket
 import os
 import struct
 import pickle
+import miniupnpc
 from random import randint
 from pygame import mixer
 
@@ -13,6 +14,20 @@ def init(port):
         files = []
         musicPath = './music'
         
+        try:
+                #Network Gateway (port forwarding)
+                upnp = miniupnpc.UPnP()
+
+                upnp.discoverdelay = 10
+                upnp.discover()
+
+                upnp.selectigd()
+
+                upnp.addportmapping(port, 'TCP', upnp.lanaddr, port, 'OpenMCS', '')
+
+        except:
+                print('INFO:Port is already forwarded or you dont have the premission to forward it')
+        
         #create music folder if non existent
         if os.path.exists(musicPath) == False :
                 os.makedirs(musicPath)
@@ -22,7 +37,7 @@ def init(port):
                         files.append(entry)
         
         s = socket.socket()
-        host = socket.gethostname()
+        host = ('') #socket.gethostname()
         s.bind((host,port))
         s.listen(5)
         print(host)
