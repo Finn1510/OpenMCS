@@ -1,9 +1,6 @@
 # OpenMCS
 <img src="https://github.com/Finn1510/OpenMCS/raw/master/Open%20MCS%20Logo.png" width="20%">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VOEOaKkWJEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[[embed url=https://www.youtube.com/embed/VOEOaKkWJEo]]
-
 An Open Source tool to listen to music together with friends.
 OpenMCS is short for Open music synchronizer. 
 It synchronizes your music libruary with the libruary of your friend.
